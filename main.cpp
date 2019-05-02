@@ -73,7 +73,6 @@ int main() {
     
     //Base
     //Triangulo principal
-     
     Punto3D A(-275, -225, 0);
     Punto3D B(275, -225,0);
     Punto3D C(0, 400, 0);
@@ -192,6 +191,109 @@ int main() {
     Triangulo tci9(ACI9,CCI9,BCI9);
     tci9.establecerColor(1.0,0.1,0.9);
 
+    Punto3D ACI10(-90, -113, 72);
+    Punto3D BCI10(-60, -25, 50);
+    Punto3D CCI10(-85, 50, 68);
+    Triangulo tci10(ACI10,CCI10,BCI10);
+    tci10.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI11(-85, 50, 72);
+    Punto3D BCI11(-83, 135, 50);
+    Punto3D CCI11(-108, 175, 68);
+    Triangulo tci11(ACI11,CCI11,BCI11);
+    tci11.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI12(-120, 38, 72);
+    Punto3D BCI12(-85, 50, 50);
+    Punto3D CCI12(-108, 175, 68);
+    Triangulo tci12(ACI12,CCI12,BCI12);
+    tci12.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI13(-90, -113, 72);
+    Punto3D BCI13(-85, 50, 50);
+    Punto3D CCI13(-120, 38, 68);
+    Triangulo tci13(ACI13,CCI13,BCI13);
+    tci13.establecerColor(1.0,0.1,0.9);
+
+    //Checkpoint
+
+    Punto3D ACI14(-90, -113, 72);
+    Punto3D BCI14(-120, 38, 50);
+    Punto3D CCI14(-121, -25, 68);
+    Triangulo tci14(ACI14,CCI14,BCI14);
+    tci14.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI15(-125, -243, 72);
+    Punto3D BCI15(-90, -113, 50);
+    Punto3D CCI15(-121, -50, 68);
+    Triangulo tci15(ACI15,CCI15,BCI15);
+    tci15.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI16(0, -355, 72);
+    Punto3D BCI16(0, -248, 50);
+    Punto3D CCI16(-90, -113, 68);
+    Triangulo tci16(ACI16,CCI16,BCI16);
+    tci16.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI17(0, -355, 72);
+    Punto3D BCI17(-90, -113, 50);
+    Punto3D CCI17(-120, -220, 68);
+    Triangulo tci17(ACI17,CCI17,BCI17);
+    tci17.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI18(-121, -25, 72);
+    Punto3D BCI18(-108, 175, 50);
+    Punto3D CCI18(-305, -253, 68);
+    Triangulo tci18(ACI18,CCI18,BCI18);
+    tci18.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI19(-300, -305, 72);
+    Punto3D BCI19(-121, -25, 50);
+    Punto3D CCI19(-305, -253, 68);
+    Triangulo tci19(ACI19,CCI19,BCI19);
+    tci19.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI20(-124, -145, 72);
+    Punto3D BCI20(-121, -25, 50);
+    Punto3D CCI20(-300, -305, 68);
+    Triangulo tci20(ACI20,CCI20,BCI20);
+    tci20.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI21(-295, -381, 72);
+    Punto3D BCI21(-124, -145, 50);
+    Punto3D CCI21(-300, -305, 68);
+    Triangulo tci21(ACI21,CCI21,BCI21);
+    tci21.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI22(-125, -220, 72);
+    Punto3D BCI22(-124, -145, 50);
+    Punto3D CCI22(-295, -381, 68);
+    Triangulo tci22(ACI22,CCI22,BCI22);
+    tci22.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI23(-300, -305, 72);
+    Punto3D BCI23(-321, -295, 68); //-305, -253, 50
+    Punto3D CCI23(-305, -253, 50);
+    Triangulo tci23(ACI23,CCI23,BCI23);
+    tci23.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI24(-295, -381, 72);
+    Punto3D BCI24(-330, -350, 68); //-300, -305, 50
+    Punto3D CCI24(-300, -305, 50);
+    Triangulo tci24(ACI24,CCI24,BCI24);
+    tci24.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACI25(-330, -350, 72);
+    Punto3D BCI25(-300, -305, 68); //-300, -305, 50
+    Punto3D CCI25(-321, -295, 50);
+    Triangulo tci25(ACI25,CCI25,BCI25);
+    tci25.establecerColor(1.0,0.1,0.9);
+
+
+
+
+
+
 
 
 
@@ -209,6 +311,43 @@ int main() {
     Punto3D CCD3(25, 335, 0);
     Triangulo tcd3(ACD3,CCD3,BCD3);
     tcd3.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD4(0, -195, 40);
+    Punto3D BCD4(90, -113, 40); //0, 190, 100
+    Punto3D CCD4(0, 190, 100);
+    Triangulo tcd4(ACD4,CCD4,BCD4);
+    tcd4.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD5(60, -25, 0);
+    Punto3D BCD5(60, 265, 0); //0, 190, 100
+    Punto3D CCD5(0, 190, 100);
+    Triangulo tcd5(ACD5,CCD5,BCD5);
+    tcd5.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD6(50, 210, 25);
+    Punto3D BCD6(108, 175, 0); //60, 218, 0
+    Punto3D CCD6(60, 218, 0);
+    Triangulo tcd6(ACD6,CCD6,BCD6);
+    tcd6.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD7(98, 167, 25);
+    Punto3D BCD7(108, 175, 0); //50, 210, 25
+    Punto3D CCD7(50, 210, 25);
+    Triangulo tcd7(ACD7,CCD7,BCD7);
+    tcd7.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD8(85, 50, 68);
+    Punto3D BCD8(83, 135, 50); //43, 180, 50
+    Punto3D CCD8(43, 180, 50);
+    Triangulo tcd8(ACD8,CCD8,BCD8);
+    tcd8.establecerColor(1.0,0.1,0.9);
+
+    //REVISAR LA ALTURA!!!!!
+    Punto3D ACD9(60, -25, 72);
+    Punto3D BCD9(85, 50, 68); //43, 180, 50
+    Punto3D CCD9(43, 180, 50);
+    Triangulo tcd9(ACD9,CCD9,BCD9);
+    tcd9.establecerColor(1.0,0.1,0.9);
 
     //======================================================================================================================
     //Metemos los objetos a la Escena
@@ -238,11 +377,32 @@ int main() {
     escena.push_back(&tci7);
     escena.push_back(&tci8);
     escena.push_back(&tci9);
-
+    escena.push_back(&tci10);
+    escena.push_back(&tci11);
+    escena.push_back(&tci12);
+    escena.push_back(&tci13);
+    escena.push_back(&tci14);
+    escena.push_back(&tci15);
+    escena.push_back(&tci16);
+    escena.push_back(&tci17);
+    escena.push_back(&tci18);
+    escena.push_back(&tci19);
+    escena.push_back(&tci20);
+    escena.push_back(&tci21);
+    escena.push_back(&tci22);
+    escena.push_back(&tci23);
+    escena.push_back(&tci24);
+    escena.push_back(&tci25);
 
     //- Derecho
     escena.push_back(&tcd1);
     escena.push_back(&tcd3);
+    escena.push_back(&tcd4);
+    escena.push_back(&tcd5);
+    escena.push_back(&tcd6);
+    escena.push_back(&tcd7);
+    escena.push_back(&tcd8);
+    escena.push_back(&tcd9);
     //==========================================================================
 
 
