@@ -349,6 +349,104 @@ int main() {
     Triangulo tcd9(ACD9,CCD9,BCD9);
     tcd9.establecerColor(1.0,0.1,0.9);
 
+    Punto3D ACD10(90, -113, 72);
+    Punto3D BCD10(85, 50, 68); //60, -25, 50
+    Punto3D CCD10(60, -25, 50);
+    Triangulo tcd10(ACD10,CCD10,BCD10);
+    tcd10.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD11(85, 50, 72);
+    Punto3D BCD11(108, 175, 68); //83, 135, 50
+    Punto3D CCD11(83, 135, 50);
+    Triangulo tcd11(ACD11,CCD11,BCD11);
+    tcd11.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD12(120, 38, 72);
+    Punto3D BCD12(108, 175, 68); //85, 50, 50
+    Punto3D CCD12(85, 50, 50);
+    Triangulo tcd12(ACD12,CCD12,BCD12);
+    tcd12.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD13(90, -113, 72);
+    Punto3D BCD13(120, 38, 68); //85, 50, 50
+    Punto3D CCD13(85, 50, 50);
+    Triangulo tcd13(ACD13,CCD13,BCD13);
+    tcd13.establecerColor(1.0,0.1,0.9);
+
+    //Checkpoint
+
+    Punto3D ACD14(90, -113, 72);
+    Punto3D BCD14(121, -25, 68); //120, 38, 50
+    Punto3D CCD14(120, 38, 50);
+    Triangulo tcd14(ACD14,CCD14,BCD14);
+    tcd14.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD15(125, -243, 72);
+    Punto3D BCD15(121, -50, 68); //90, -113, 50
+    Punto3D CCD15(90, -113, 50);
+    Triangulo tcd15(ACD15,CCD15,BCD15);
+    tcd15.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD16(0, -355, 72);
+    Punto3D BCD16(90, -113, 68); //0, -248, 50
+    Punto3D CCD16(0, -248, 50);
+    Triangulo tcd16(ACD16,CCD16,BCD16);
+    tcd16.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD17(0, -355, 72);
+    Punto3D BCD17(120, -220, 68); //90, -113, 50
+    Punto3D CCD17(90, -113, 50);
+    Triangulo tcd17(ACD17,CCD17,BCD17);
+    tcd17.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD18(121, -25, 72);
+    Punto3D BCD18(305, -253, 68); //108, 175, 50
+    Punto3D CCD18(108, 175, 50);
+    Triangulo tcd18(ACD18,CCD18,BCD18);
+    tcd18.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD19(300, -305, 72);
+    Punto3D BCD19(305, -253, 68); //121, -25, 50
+    Punto3D CCD19(121, -25, 50);
+    Triangulo tcd19(ACD19,CCD19,BCD19);
+    tcd19.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD20(124, -145, 72);
+    Punto3D BCD20(300, -305, 68); //121, -25, 50
+    Punto3D CCD20(121, -25, 50);
+    Triangulo tcd20(ACD20,CCD20,BCD20);
+    tcd20.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD21(295, -381, 72);
+    Punto3D BCD21(300, -305, 68); //124, -145, 50
+    Punto3D CCD21(124, -145, 50);
+    Triangulo tcd21(ACD21,CCD21,BCD21);
+    tcd21.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD22(125, -220, 72);
+    Punto3D BCD22(295, -381, 68); //124, -145, 50
+    Punto3D CCD22(124, -145, 50);
+    Triangulo tcd22(ACD22,CCD22,BCD22);
+    tcd22.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD23(300, -305, 72);
+    Punto3D BCD23(305, -253, 50); //321, -295, 68
+    Punto3D CCD23(321, -295, 68);
+    Triangulo tcd23(ACD23,CCD23,BCD23);
+    tcd23.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD24(295, -381, 72);
+    Punto3D BCD24(300, -305, 50); //330, -350, 68
+    Punto3D CCD24(330, -350, 68);
+    Triangulo tcd24(ACD24,CCD24,BCD24);
+    tcd24.establecerColor(1.0,0.1,0.9);
+
+    Punto3D ACD25(330, -350, 72);
+    Punto3D BCD25(321, -295, 50); //300, -305, 68
+    Punto3D CCD25(300, -305, 68);
+    Triangulo tcd25(ACD25,CCD25,BCD25);
+    tcd25.establecerColor(1.0,0.1,0.9);
+
     //======================================================================================================================
     //Metemos los objetos a la Escena
     vector<ObjetoGeometrico*> escena;
@@ -403,6 +501,23 @@ int main() {
     escena.push_back(&tcd7);
     escena.push_back(&tcd8);
     escena.push_back(&tcd9);
+    escena.push_back(&tcd10);
+    escena.push_back(&tcd11);
+    escena.push_back(&tcd12);
+    escena.push_back(&tcd13);
+    escena.push_back(&tcd14);
+    escena.push_back(&tcd15);
+    escena.push_back(&tcd16);
+    escena.push_back(&tcd17);
+    escena.push_back(&tcd18);
+    escena.push_back(&tcd19);
+    escena.push_back(&tcd20);
+    escena.push_back(&tcd21);
+    escena.push_back(&tcd22);
+    escena.push_back(&tcd23);
+    escena.push_back(&tcd24);
+    escena.push_back(&tcd25);
+
     //==========================================================================
 
 
